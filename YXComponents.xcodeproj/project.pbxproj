@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20A21F9D13C6C54E61344D3F /* Pods_YXComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 963748D8F4B1FE0247D82867 /* Pods_YXComponents.framework */; };
 		866E861D2C8062A5007EEFD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866E861C2C8062A5007EEFD2 /* AppDelegate.swift */; };
 		866E861F2C8062A5007EEFD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866E861E2C8062A5007EEFD2 /* SceneDelegate.swift */; };
 		866E86212C8062A5007EEFD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866E86202C8062A5007EEFD2 /* ViewController.swift */; };
 		866E86242C8062A5007EEFD2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 866E86232C8062A5007EEFD2 /* Base */; };
 		866E86262C8062A6007EEFD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 866E86252C8062A6007EEFD2 /* Assets.xcassets */; };
 		866E86292C8062A6007EEFD2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 866E86282C8062A6007EEFD2 /* Base */; };
+		866E86322C8062F6007EEFD2 /* HorizontalPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866E86312C8062F6007EEFD2 /* HorizontalPickerViewController.swift */; };
+		86771D3B2C8076D800C4A73C /* HorizontalCardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86771D3A2C8076D800C4A73C /* HorizontalCardCollectionViewController.swift */; };
+		86771D3F2C80780300C4A73C /* YXUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86771D3E2C80780300C4A73C /* YXUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5BE966CDA5CCAEFEF00E4635 /* Pods-YXComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXComponents.debug.xcconfig"; path = "Target Support Files/Pods-YXComponents/Pods-YXComponents.debug.xcconfig"; sourceTree = "<group>"; };
 		866E86192C8062A5007EEFD2 /* YXComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YXComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		866E861C2C8062A5007EEFD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		866E861E2C8062A5007EEFD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,11 @@
 		866E86252C8062A6007EEFD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		866E86282C8062A6007EEFD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		866E862A2C8062A6007EEFD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		866E86312C8062F6007EEFD2 /* HorizontalPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalPickerViewController.swift; sourceTree = "<group>"; };
+		86771D3A2C8076D800C4A73C /* HorizontalCardCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCardCollectionViewController.swift; sourceTree = "<group>"; };
+		86771D3E2C80780300C4A73C /* YXUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXUtils.swift; sourceTree = "<group>"; };
+		963748D8F4B1FE0247D82867 /* Pods_YXComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YXComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDECEC66C219A9BD93473B8 /* Pods-YXComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXComponents.release.xcconfig"; path = "Target Support Files/Pods-YXComponents/Pods-YXComponents.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A21F9D13C6C54E61344D3F /* Pods_YXComponents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B1D0A39AF4D32FA22FB2E93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BE966CDA5CCAEFEF00E4635 /* Pods-YXComponents.debug.xcconfig */,
+				AFDECEC66C219A9BD93473B8 /* Pods-YXComponents.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		866E86102C8062A5007EEFD2 = {
 			isa = PBXGroup;
 			children = (
 				866E861B2C8062A5007EEFD2 /* YXComponents */,
 				866E861A2C8062A5007EEFD2 /* Products */,
+				4B1D0A39AF4D32FA22FB2E93 /* Pods */,
+				F5B918F280C692BE6400CAFE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +78,8 @@
 		866E861B2C8062A5007EEFD2 /* YXComponents */ = {
 			isa = PBXGroup;
 			children = (
+				86771D3A2C8076D800C4A73C /* HorizontalCardCollectionViewController.swift */,
+				866E86302C8062AF007EEFD2 /* HorizontalPickerView */,
 				866E861C2C8062A5007EEFD2 /* AppDelegate.swift */,
 				866E861E2C8062A5007EEFD2 /* SceneDelegate.swift */,
 				866E86202C8062A5007EEFD2 /* ViewController.swift */,
@@ -63,8 +87,25 @@
 				866E86252C8062A6007EEFD2 /* Assets.xcassets */,
 				866E86272C8062A6007EEFD2 /* LaunchScreen.storyboard */,
 				866E862A2C8062A6007EEFD2 /* Info.plist */,
+				86771D3E2C80780300C4A73C /* YXUtils.swift */,
 			);
 			path = YXComponents;
+			sourceTree = "<group>";
+		};
+		866E86302C8062AF007EEFD2 /* HorizontalPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				866E86312C8062F6007EEFD2 /* HorizontalPickerViewController.swift */,
+			);
+			path = HorizontalPickerView;
+			sourceTree = "<group>";
+		};
+		F5B918F280C692BE6400CAFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				963748D8F4B1FE0247D82867 /* Pods_YXComponents.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 866E862D2C8062A6007EEFD2 /* Build configuration list for PBXNativeTarget "YXComponents" */;
 			buildPhases = (
+				CC9A4A71B60D92C6D660D9FF /* [CP] Check Pods Manifest.lock */,
 				866E86152C8062A5007EEFD2 /* Sources */,
 				866E86162C8062A5007EEFD2 /* Frameworks */,
 				866E86172C8062A5007EEFD2 /* Resources */,
+				C7108DD04CD33ABD708F8AC4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +176,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C7108DD04CD33ABD708F8AC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YXComponents/Pods-YXComponents-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YXComponents/Pods-YXComponents-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YXComponents/Pods-YXComponents-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC9A4A71B60D92C6D660D9FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YXComponents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		866E86152C8062A5007EEFD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86771D3B2C8076D800C4A73C /* HorizontalCardCollectionViewController.swift in Sources */,
 				866E86212C8062A5007EEFD2 /* ViewController.swift in Sources */,
 				866E861D2C8062A5007EEFD2 /* AppDelegate.swift in Sources */,
+				866E86322C8062F6007EEFD2 /* HorizontalPickerViewController.swift in Sources */,
+				86771D3F2C80780300C4A73C /* YXUtils.swift in Sources */,
 				866E861F2C8062A5007EEFD2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -287,11 +375,13 @@
 		};
 		866E862E2C8062A6007EEFD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE966CDA5CCAEFEF00E4635 /* Pods-YXComponents.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YXComponents/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -299,6 +389,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,11 +405,13 @@
 		};
 		866E862F2C8062A6007EEFD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFDECEC66C219A9BD93473B8 /* Pods-YXComponents.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YXComponents/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -326,6 +419,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
