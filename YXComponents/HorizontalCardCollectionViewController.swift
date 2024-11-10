@@ -16,6 +16,12 @@ class HorizontalCardCollectionViewController: UIViewController, UICollectionView
         cell.titleLabel.text = String(indexPath.item)
         return cell
     }
+    
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print("😀😀 indexPath = \(indexPath)")
+    }
+    
 
     enum Layout {
         static let margin: CGFloat = 16
@@ -90,7 +96,7 @@ class HorizontalCardCollectionLayout: UICollectionViewFlowLayout {
         let realOffsetX = collectionView.contentOffset.x
         let rawPageValue = realOffsetX / pageWidth
         var nextPage: CGFloat = 0
-        if velocityValue > 0.0 {
+        if velocityValue >= 0.0 {
             nextPage = ceil(rawPageValue)
         } else {
             nextPage = floor(rawPageValue)
