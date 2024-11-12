@@ -17,6 +17,8 @@
 		866E86322C8062F6007EEFD2 /* HorizontalPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866E86312C8062F6007EEFD2 /* HorizontalPickerViewController.swift */; };
 		86771D3B2C8076D800C4A73C /* HorizontalCardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86771D3A2C8076D800C4A73C /* HorizontalCardCollectionViewController.swift */; };
 		86771D3F2C80780300C4A73C /* YXUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86771D3E2C80780300C4A73C /* YXUtils.swift */; };
+		86AB6CF02CE2EECA00288C64 /* HorizontalCardCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB6CEF2CE2EECA00288C64 /* HorizontalCardCollectionLayout.swift */; };
+		86AB6CF22CE2EF2D00288C64 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB6CF12CE2EF2D00288C64 /* PaddingLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		866E86312C8062F6007EEFD2 /* HorizontalPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalPickerViewController.swift; sourceTree = "<group>"; };
 		86771D3A2C8076D800C4A73C /* HorizontalCardCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCardCollectionViewController.swift; sourceTree = "<group>"; };
 		86771D3E2C80780300C4A73C /* YXUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXUtils.swift; sourceTree = "<group>"; };
+		86AB6CEF2CE2EECA00288C64 /* HorizontalCardCollectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCardCollectionLayout.swift; sourceTree = "<group>"; };
+		86AB6CF12CE2EF2D00288C64 /* PaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
 		963748D8F4B1FE0247D82867 /* Pods_YXComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YXComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFDECEC66C219A9BD93473B8 /* Pods-YXComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXComponents.release.xcconfig"; path = "Target Support Files/Pods-YXComponents/Pods-YXComponents.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,7 +82,9 @@
 		866E861B2C8062A5007EEFD2 /* YXComponents */ = {
 			isa = PBXGroup;
 			children = (
-				86771D3A2C8076D800C4A73C /* HorizontalCardCollectionViewController.swift */,
+				86AB6CF42CE2F01700288C64 /* Utils */,
+				86AB6CF32CE2F00100288C64 /*  PaddingLabel */,
+				86AB6CEE2CE2EE7600288C64 /* HorizontalCardCollectionLayout */,
 				866E86302C8062AF007EEFD2 /* HorizontalPickerView */,
 				866E861C2C8062A5007EEFD2 /* AppDelegate.swift */,
 				866E861E2C8062A5007EEFD2 /* SceneDelegate.swift */,
@@ -87,7 +93,6 @@
 				866E86252C8062A6007EEFD2 /* Assets.xcassets */,
 				866E86272C8062A6007EEFD2 /* LaunchScreen.storyboard */,
 				866E862A2C8062A6007EEFD2 /* Info.plist */,
-				86771D3E2C80780300C4A73C /* YXUtils.swift */,
 			);
 			path = YXComponents;
 			sourceTree = "<group>";
@@ -98,6 +103,31 @@
 				866E86312C8062F6007EEFD2 /* HorizontalPickerViewController.swift */,
 			);
 			path = HorizontalPickerView;
+			sourceTree = "<group>";
+		};
+		86AB6CEE2CE2EE7600288C64 /* HorizontalCardCollectionLayout */ = {
+			isa = PBXGroup;
+			children = (
+				86771D3A2C8076D800C4A73C /* HorizontalCardCollectionViewController.swift */,
+				86AB6CEF2CE2EECA00288C64 /* HorizontalCardCollectionLayout.swift */,
+			);
+			path = HorizontalCardCollectionLayout;
+			sourceTree = "<group>";
+		};
+		86AB6CF32CE2F00100288C64 /*  PaddingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				86AB6CF12CE2EF2D00288C64 /* PaddingLabel.swift */,
+			);
+			path = " PaddingLabel";
+			sourceTree = "<group>";
+		};
+		86AB6CF42CE2F01700288C64 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				86771D3E2C80780300C4A73C /* YXUtils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		F5B918F280C692BE6400CAFE /* Frameworks */ = {
@@ -227,6 +257,8 @@
 				866E86212C8062A5007EEFD2 /* ViewController.swift in Sources */,
 				866E861D2C8062A5007EEFD2 /* AppDelegate.swift in Sources */,
 				866E86322C8062F6007EEFD2 /* HorizontalPickerViewController.swift in Sources */,
+				86AB6CF22CE2EF2D00288C64 /* PaddingLabel.swift in Sources */,
+				86AB6CF02CE2EECA00288C64 /* HorizontalCardCollectionLayout.swift in Sources */,
 				86771D3F2C80780300C4A73C /* YXUtils.swift in Sources */,
 				866E861F2C8062A5007EEFD2 /* SceneDelegate.swift in Sources */,
 			);
@@ -381,6 +413,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z7DDWA23Q6;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YXComponents/Info.plist;
@@ -411,6 +444,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z7DDWA23Q6;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = YXComponents/Info.plist;
