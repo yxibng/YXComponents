@@ -20,4 +20,10 @@ class PaddingLabel: UILabel {
         contentSize.width += edgeInsets.left + edgeInsets.right
         return contentSize
     }
+    open override var bounds: CGRect {
+        didSet {
+             //Supported Multiple Lines in Stack views
+            preferredMaxLayoutWidth = bounds.width - (self.edgeInsets.left + self.edgeInsets.right)
+        }
+    }
 }
